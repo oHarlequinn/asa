@@ -13,7 +13,7 @@ import Wuwa from './pages/Wuwa'
 
 function App() {
   return (
-    <Router>
+    <Router basename='/asa'>
       {/* <Header></Header> */}
       <Layout>
 

@@ -7,7 +7,7 @@ const HomePage = () => {
     <body>
       <div className="image-1">
         {/* <img src="/asa-mitaka.jpg" width="500" height="500" /> */}
-        <img src="/davinci.png" width="500" height="500" />
+        <img src="/asa/davinci.png" width="500" height="500" />
       </div>
 
       <section className="welcome">
