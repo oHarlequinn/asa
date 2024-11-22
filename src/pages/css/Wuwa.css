@@ -1,0 +1,142 @@
+.wuwa {
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.wuwa h1 {
+    color: #6a381f;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wuwa p {
+    color: #6a381f;
+    font-weight: normal;
+    text-align:justify;
+}
+
+/* Cards Styles */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap to a new row if space is limited */
+    gap: 1rem;
+    justify-content: center; /* Centers cards within the container */
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100vw; /* Prevents the container from exceeding viewport width */
+    box-sizing: border-box; /* Ensures padding is included in total width */
+}
+
+.card {
+    --card-bg-color: #ffe9b7;
+    flex: 1 1 250px; /* Each card will take up a minimum width of 250px */
+    max-width: 300px; /* Ensures cards don’t grow too large */
+    min-width: 150px; /* Ensures cards remain readable on smaller screens */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-bg-color);
+    box-sizing: border-box;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 100%; /* Each card takes the full width on smaller screens */
+    }
+}
+
+.image-segment {
+    width: 100%;
+    aspect-ratio: 1;
+    /* background-color: #ffe29d; */
+    overflow: hidden;
+    display: flex; /* flex container to content */
+    align-items: center; /* vertical */
+    justify-content: center; /* horizontal */
+}
+
+.image-segment img {
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.output-segment {
+    height: calc(100vw / 12);
+    max-height: 25px;
+    min-height: 20px;
+    padding: 1rem;
+    /* background-color: #ffe29d; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    font-weight: bold;
+}
+
+.input-segment {
+    height: calc(100vw / 6);
+    max-height: 50px;
+    min-height: 40px;
+    padding: 0.5rem;
+    border: none;
+    /* background-color: #ffe29d; */
+    flex: none;
+    text-align: center;
+}
+
+.input-group {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: #555;
+    font-size: 0.8rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    text-align: center;
+    /* background-color: #fff1d0; */
+    /* background-color: var(--card-bg-color); */
+}
+
+input::placeholder {
+    color: #6a381f; /* Replace this with your desired color */
+    opacity: .5; /* Ensures the color is fully opaque */
+}
+
+input:focus {
+    outline: none;
+}
+
+.output-text {
+    font-size: 0.9rem;
+    text-align: center;
+    /* font-weight: bold; */
+    color: #6a381f;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: auto;
+}

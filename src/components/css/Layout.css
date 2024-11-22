@@ -1,0 +1,8 @@
+.layout-children {
+    flex: 1;
+    padding: 2rem;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}

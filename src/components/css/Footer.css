@@ -1,0 +1,42 @@
+footer {
+    background-color: #6e0d25;
+    color: #ffffb3;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+footer p {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background-color: #6e0d25;
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    background-color: #6e0d25;
+}
+
+footer .social-btn {
+    background-color: #fff1d0;
+    color: #6a381f;
+    text-decoration: none;
+    width: 48px; /* Square width */
+    height: 48px; /* Square height to match */
+    display: flex; /* flex container to content */
+    align-items: center; /* vertical */
+    justify-content: center; /* horizontal */
+    border-radius: 8px; /* Adjust for rounded square */
+    transition: background-color 0.3s;
+    font-size: 1.5rem; /* Adjust icon size as needed */
+}
+
+footer .social-btn:hover {
+    background-color: #ffe29d;
+    color: #6a381f;
+}

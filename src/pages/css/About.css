@@ -1,0 +1,19 @@
+.about {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.about h1 {
+    color: #6a381f;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about p {
+    color: #6a381f;
+    font-weight: normal;
+    text-align:justify;
+    padding-bottom: 1rem;
+}

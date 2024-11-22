@@ -1,0 +1,37 @@
+header {
+    background-color: #6e0d25;
+    color: #ffffb3;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #6e0d25;
+}
+
+header nav {
+    margin-top: 1rem;
+    background-color: #6e0d25;
+    /* font-weight: bold; */
+}
+
+header .nav-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    background-color: #fff1d0;
+    color: #6a381f;
+    text-decoration: none;
+    /* border-radius: 8px; */
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+header .nav-btn:hover {
+    background-color: #ffe29d;
+    color: #6a381f;
+}
